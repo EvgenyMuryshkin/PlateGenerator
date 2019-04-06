@@ -1,8 +1,10 @@
 # PlateGenerator
 Generate base plates for 3D printing models with variuos parameters
 
-Configure and run unit test from Visual Studio or command line to produce STL with base plate
-This tests produces plate with 5 segments, 60mm radius, with spindel hole and a cut
+Configure and run unit test from Visual Studio or command line to produce STL with base plate.
+
+This tests produces plate with 5 segments, 60mm radius, with spindel hole and a spindel cut.
+
 ```csharp
         [TestMethod]
         public void SEG5xRAD60xPWDT5_SPD3_CUT05()
