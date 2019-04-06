@@ -87,20 +87,20 @@ namespace planter
         }
 
         [TestMethod]
-        public void SEG5xRAD60xPWDT5_SPD2_CUT1()
+        public void SEG5xRAD60xPWDT5_SPD3_CUT05()
         {
             var config = new PlateConfig()
             {
                 segments = 5,
                 plateRadius = 60,
                 panelWidth = 5,
-                spindelRadius = 2,
-                spindelCut = 1
+                spindelRadius = 3,
+                spindelCut = 0.5
             };
 
             SaveMesh(config);
-
         }
+
         [TestMethod]
         public void SEG7xRAD90xBND10_SPD5_CUT1()
         {
